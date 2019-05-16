@@ -1,0 +1,12 @@
+branches:
+  only:
+    - master
+
+language: c
+
+compiler: gcc
+
+script:
+  - cd hello
+  - make
+  - ./hello
